@@ -3,8 +3,9 @@
 namespace PHPThumb\Tests;
 
 use PHPThumb\GD;
+use PHPUnit\Framework\TestCase;
 
-class GDTest extends \PHPUnit_Framework_TestCase
+class GDTest extends TestCase
 {
     protected $gif;
     protected $jpg;
