@@ -3,8 +3,9 @@
 namespace PHPThumb\Tests;
 
 use PHPThumb\GD;
+use PHPUnit\Framework\TestCase;
 
-class LoadTest extends \PHPUnit_Framework_TestCase
+class LoadTest extends TestCase
 {
     protected $thumb;
 
